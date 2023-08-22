@@ -9,11 +9,11 @@ export default {
       'main':'#008000',
       'white':'#fff',
       'ghover':'#004b23',
-      'text1':'rgb(38 38 38)'
+      'text1':'#b7b7a4'
 
 
 
-
+// wine=eb5b28
       //  'ghover':'#008000',
       // 'white':'#fff',
       // 'main':'#004b23',
