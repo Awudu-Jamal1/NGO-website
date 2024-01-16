@@ -25,8 +25,8 @@ function Navbar() {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-  const back = colorChange ? "bg-text1 " : "bg-white";
-  const col = colorChange ? "text-ghover" : "text-[#c1121f]";
+  const back =  "bg-text1 " ;
+  const col =  "text-ghover" ;
   // const styles ="absolute flex w-full  bg-main items-center justify-between p-6 lg:px-8"
   return (
     <>
