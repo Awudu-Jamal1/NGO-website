@@ -11,6 +11,8 @@ const navigation = [
   { name: "CONTACT US", href: "#" },
 ];
 
+import logo from "../assets/images/logo 2.png"
+
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [colorChange, setColorchange] = useState(false);
@@ -23,7 +25,7 @@ function Navbar() {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-  const back = colorChange ? "bg-text1 " : "";
+  const back = colorChange ? "bg-text1 " : "bg-white";
   const col = colorChange ? "text-ghover" : "text-[#c1121f]";
   // const styles ="absolute flex w-full  bg-main items-center justify-between p-6 lg:px-8"
   return (
@@ -35,7 +37,8 @@ function Navbar() {
         <div className="flex lg:flex-1 ">
           <a href="#" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
-            LOGO NAme
+
+            <img style={{}} src={logo} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
