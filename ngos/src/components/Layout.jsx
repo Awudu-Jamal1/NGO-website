@@ -5,10 +5,10 @@ import Footer from "./Footer";
 function Layout() {
   return (
     <>
-      <div className="fixed w-full border-yellow-300 z-40">
+      <div className="fixed w-full  z-40">
         <Navbar />
       </div>
-      <div className="z-20">
+      <div className="">
         <Outlet />
       </div>
       <div>

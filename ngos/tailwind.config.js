@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     colors:{
-      'main':'#008000',
+      '2main':'#008000',
+      'main':'#02461f',
       'white':'#fff',
       'ghover':'#004b23',
       'text1':'#b7b7a4'

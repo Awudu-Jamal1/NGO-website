@@ -31,7 +31,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`absolute flex w-full   items-center justify-between p-6 lg:px-8 ${back}`}
+        className={` flex w-full   items-center justify-between p-2 lg:px-6  sm:py-2 ${back}`}
         aria-label="Global"
       >
         <div className="flex lg:flex-1 ">
