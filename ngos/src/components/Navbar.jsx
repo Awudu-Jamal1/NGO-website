@@ -25,13 +25,13 @@ function Navbar() {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-  const back =  "bg-text1 " ;
-  const col =  "text-ghover" ;
+  const back =  "bg-white " ;
+  const col =  "2main" ;
   // const styles ="absolute flex w-full  bg-main items-center justify-between p-6 lg:px-8"
   return (
     <>
       <nav
-        className={` flex w-full   items-center justify-between p-2 lg:px-6  sm:py-2 ${back}`}
+        className={` flex w-full   items-center  shadow-lg justify-between p-2 lg:px-6  sm:py-2 ${back}`}
         aria-label="Global"
       >
         <div className="flex lg:flex-1 ">
@@ -56,7 +56,7 @@ function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className={`hover:${col} text-LG font-semibold text-white`}
+              className={`hover:underline text-LG font-semibold text-main`}
             >
               <div>{item.name}</div>
             </a>
@@ -65,7 +65,7 @@ function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end   ">
           <a
             href="#"
-            className={`text-lg font-semibold leading-6 text-red-200 hover:${col} text-white `}
+            className={`text-lg font-semibold leading-6 text-red-200 hover:text-teal text-main `}
           >
             DONATE{" "}
             <span aria-hidden="true">
