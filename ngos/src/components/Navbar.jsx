@@ -4,11 +4,11 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon, HeartIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "THE CHALLENGE", href: "#" },
-  { name: "OUR STORY", href: "#" },
-  { name: "OUR WORK", href: "#" },
-  { name: "OUR TEAM", href: "#" },
-  { name: "CONTACT US", href: "#" },
+  { name: "HOME", href: "#home" },
+  { name: "ABOUT US", href: "#about" },
+  { name: "OUR WORK", href: "#ow" },
+  { name: "OUR TEAM", href: "#ot" },
+  { name: "CONTACT US", href: "#ct" },
 ];
 
 import logo from "../assets/images/logo 2.png"
@@ -35,7 +35,7 @@ function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1 ">
-          <a href="#" className="-m-1.5 p-1.5  text-white">
+          <a href="#home" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
 
             <img style={{}} src={logo} alt="" />
@@ -44,7 +44,7 @@ function Navbar() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-main"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -76,24 +76,24 @@ function Navbar() {
       </nav>
       <Dialog
         as="div"
-        className="lg:hidden"
+        className="lg:hidden text-main"
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-main text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto  bg-white text-main px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src={logo}
                 alt=""
               />
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-md p-2.5 text-main"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
@@ -113,14 +113,7 @@ function Navbar() {
                   </a>
                 ))}
               </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
-              </div>
+
             </div>
           </div>
         </Dialog.Panel>

@@ -31,7 +31,7 @@ const posts = [
 
 export default function Content3() {
   return (
-    <div className="bg-white py-2">
+    <div id="ow" className="bg-white py-2">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-2 gap-y-16  border-gray-200   lg:mx-0 lg:max-w-none lg:grid-cols-5">
           {posts.map((post) => (

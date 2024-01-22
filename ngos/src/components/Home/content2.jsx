@@ -3,11 +3,11 @@ import Member from "./members";
 
 function Content2() {
     return (  <>
-    <div className="mx-auto max-w-4xl py-10 ">
+    <div id="about" className="mx-auto max-w-4xl py-10 ">
 
-<div className="text-right py-10">
+<div className="text-center py-10">
   <h1 className="text-4xl font-bold tracking-tight text-main sm:text-5xl">
-    What We Do
+    About Us
   </h1>
   <p className="mt-6 text-2xl font-bold leading-8 text-text1">
     To inspire millions of individuals around the globe to come up with innovative ideas and solutions to protect and part of the solution.
@@ -15,7 +15,7 @@ function Content2() {
 
 
 </div>
-<div className="text-left">
+<div className="text-center">
 <h1 className="text-4xl font-bold tracking-tight pt-8 text-main sm:text-5xl">
     Vision
   </h1>

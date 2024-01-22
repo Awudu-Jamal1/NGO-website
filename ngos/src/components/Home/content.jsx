@@ -1,5 +1,5 @@
 function Content() {
-    return ( <div className="coreImg py-20 sm:py-56  lg:py-32 ">
+    return ( <div id="home" className="coreImg py-20 sm:py-56  lg:py-32 ">
 
 <div className=" px-6  lg:px-8  clearz">
 
