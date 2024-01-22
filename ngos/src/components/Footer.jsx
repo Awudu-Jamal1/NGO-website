@@ -19,16 +19,16 @@ function Footer() {
               <h1 className="text-2xl font-bold text-white ">LOGO NAME</h1>
             </div>
             <div
-
-              className="flex   text-center max-w-xl  flex-col items-center justify-between"
+              className="flex    max-w-xl  flex-col items-center justify-between"
             >
               <h1 className=" font-bold text-white">Follow Us On</h1>
+
               <div className="py-4  w-48">
-                <div className="flex justify-evenly">
+                <div className=" grid grid-cols-2 cursor-pointer gap-0 px-9 py-2">
                 <div className="icons8-facebook"></div>
-<div className="text-sm font-bold text-white pointer ">Globally Green_</div>
+                <div className="text-sm font-bold text-white pointer ">Globally Green_</div>
                 </div>
-                <div className="flex mt-3 justify-evenly">
+                <div className="grid grid-cols-2 cursor-pointer gap-1 px-9 py-2">
                 <div className="icons8-instagram"></div>
                 <div className="text-sm font-bold text-white">globalygreen_</div>
                 </div>

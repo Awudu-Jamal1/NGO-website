@@ -1,8 +1,9 @@
 import Content3 from "./content3";
+import Member from "./members";
 
 function Content2() {
     return (  <>
-    <div className="mx-auto max-w-2xl py-20 ">
+    <div className="mx-auto max-w-2xl py-10 ">
 
 <div className="text-center">
   <h1 className="text-4xl font-bold tracking-tight text-main sm:text-6xl">
@@ -12,6 +13,25 @@ function Content2() {
     To inspire millions of individuals around the globe to come up with innovative ideas and solutions to protect and part of the solution.
   </p>
 </div>
+
+</div>
+
+<div className="mx-auto max-w-6xl text-center py-4">
+<h1 className="text-2xl max-w- font-bold leading-8 py-8 tracking-tight text-main sm:text-3xl">
+     Our Team
+  </h1>
+  <div>
+
+ <Member/>
+
+
+  </div>
+
+</div>
+
+
+<div>
+
 </div>
 <div>
     <Content3/>
