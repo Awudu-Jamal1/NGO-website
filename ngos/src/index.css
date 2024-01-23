@@ -11,20 +11,20 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 .coreImg{
-    background-color: #02461f;
-    /* background-size: ; */
+    background-image: url('./assets/images/edfo.jpg');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 
 }
-.clearz{
+/* .clearz{
     background-image: url('./assets/images/green.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 
-}
+} */
 
 
 .icons8-facebook {

@@ -43,7 +43,7 @@ export default function Content3() {
                 backgroundRepeat: " no-repeat",
               }}
               key={post.id}
-              className="flex py-48 text-center bg-main relative  max-w-xl  opacity-70 transition ease-out delay-300 hover:opacity-90
+              className="flex py-48 text-center bg-main relative  max-w-xl  opacity-90 transition ease-out delay-300 hover:opacity-100
                hover:bg-ghover flex-col items-center justify-between"
             >
               <h1 className="text-2xl font-bold text-white">{post.title}</h1>

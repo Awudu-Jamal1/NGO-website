@@ -15,19 +15,11 @@ function Content2() {
 
 
 </div>
-<div className="text-center">
-<h1 className="text-4xl font-bold tracking-tight pt-8 text-main sm:text-5xl">
-    Vision
-  </h1>
-  <p className="mt-6 text-2xl font-bold leading-8 text-text1">
-   Through cultural collaboration and education, we seek to create a world
-   where nature would be conserved and our environment protected
-  </p>
-</div>
+
 
 </div>
 
-<div className="mx-auto max-w-6xl text-center py-4">
+<div className="mx-auto max-w-4xl text-center py-4">
 <h1 className="text-2xl max-w- font-bold leading-8 py-8 tracking-tight text-main sm:text-3xl">
      Our Team
   </h1>
