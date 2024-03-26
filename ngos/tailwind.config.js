@@ -7,7 +7,7 @@ export default {
   theme: {
     colors:{
       '2main':'#008000',
-      'main':'#02461f',
+      'main':'#8cb369',
       'white':'#fff',
       'ghover':'#004b23',
       'text1':'#b7b7a4'
@@ -19,6 +19,7 @@ export default {
       // 'white':'#fff',
       // 'main':'#004b23',
       // 'text1':'rgb(38 38 38)'
+      //#8cb369', '#02461f'
     },
     screens: {
       'sm': '640px',
