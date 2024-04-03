@@ -44,7 +44,7 @@ function Navbar() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-main"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-main3"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -56,7 +56,7 @@ function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className={`hover:underline text-[0.75rem] font-semibold text-main`}
+              className={`hover:underline text-[0.75rem] font-semibold text-main3`}
             >
               <div>{item.name}</div>
             </a>
@@ -65,7 +65,7 @@ function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end   ">
           <a
             href="#"
-            className={`text-[0.7rem] font-semibold leading-6 text-red-200 hover:text-teal text-main `}
+            className={`text-[0.7rem] font-semibold leading-6 text-red-200 hover:text-teal text-main3 `}
           >
             DONATE{" "}
             <span aria-hidden="true">

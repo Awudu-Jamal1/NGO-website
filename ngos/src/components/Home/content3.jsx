@@ -46,7 +46,7 @@ export default function Content3() {
               className="flex py-32 text-center bg-main relative  max-w-xl  opacity-90 transition ease-out delay-300 hover:opacity-100
                hover:bg-ghover flex-col items-center justify-between"
             >
-              <h1 className="text-2xl font-bold text-white">{post.title}</h1>
+              <h1 className="text-2xl text-white">{post.title}</h1>
               {/* <div className="absolute style  border"><img style={{height:"15em",top:"1"}} src={post.image} alt="" /></div> */}
             </article>
           ))}

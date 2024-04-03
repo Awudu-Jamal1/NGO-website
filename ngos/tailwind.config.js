@@ -10,7 +10,8 @@ export default {
       'main':'#8cb369',
       'white':'#fff',
       'ghover':'#004b23',
-      'text1':'#b7b7a4'
+      'text1':'#b7b7a4',
+      'main3':'#02461f',
 
 
 

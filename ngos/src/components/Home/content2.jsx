@@ -6,10 +6,10 @@ function Content2() {
     <div id="about" className="mx-auto max-w-4xl py-10 ">
 
 <div className="text-center py-10">
-  <h1 className="text-4xl font-bold tracking-tight text-main sm:text-5xl">
+  <h1 className="text-4xl font-semibold tracking-tight text-main3 sm:text-3xl">
     About Us
   </h1>
-  <p className="mt-6 text-2xl font-bold leading-8 text-text1">
+  <p className="mt-6 text-2xl  leading-8 text-text1">
     To inspire millions of individuals around the globe to come up with innovative ideas and solutions to protect and part of the solution.
   </p>
 
@@ -20,7 +20,7 @@ function Content2() {
 </div>
 
 <div className="mx-auto max-w-4xl text-center py-4">
-<h1 className="text-2xl max-w- font-bold leading-8 py-8 tracking-tight text-main sm:text-3xl">
+<h1 className="text-2xl max-w- font-semibold leading-8 py-8 tracking-tight text-main3 sm:text-3xl">
      Our Team
   </h1>
   <div>

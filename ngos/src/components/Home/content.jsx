@@ -6,7 +6,7 @@ function Content() {
         <div className="mx-auto max-w-2xl py-20 sm:py-20  lg:py-20 ">
 
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-[#feeafa] lg:text-5xl sm:text-4xl">
+            <h1 className="text-4xl font-semibold tracking-tight text-[#feeafa] lg:text-5xl sm:text-4xl">
               Change must occur in the World
             </h1>
             <p className="mt-6 text-xl lg:text-xl   text-[#feeafa]">
