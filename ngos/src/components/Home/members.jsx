@@ -6,23 +6,28 @@ import member4 from "../../assets/images/saudat.jpg";
 const mem = [
   {
     id: 1,
-    title: "position 1",
+    title: "Founder and Executive Director",
+    name:'Saudat Kamarre-Deen Founder',
 
     image: member4,
   },
   {
     id: 2,
-    title: "position 2",
+    title: "Communication Director",
+    name:'Bright Kwasi Bediako',
     image: member2,
   },
   {
     id: 3,
-    title: "position 3",
+    title: "Program Director",
+    name:'Patricia Badua Nkansah',
+
     image: member3,
   },
   {
     id: 3,
-    title: "position 3",
+    title: "Volunteer Coordinator",
+    name:'Desmond Mensah',
     image: member1,
   },
 ];

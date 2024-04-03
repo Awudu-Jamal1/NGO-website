@@ -1,15 +1,15 @@
 function Content() {
-    return ( <div id="home" className="coreImg py-20 sm:py-32  lg:py-32 ">
+    return ( <div id="home" className="coreImg py-20 sm:py-16  lg:py-16 ">
 
 <div className=" px-6  lg:px-8  clearz">
 
-        <div className="mx-auto max-w-2xl py-20 sm:py-56  lg:py-48">
+        <div className="mx-auto max-w-2xl py-20 sm:py-20  lg:py-20 ">
 
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-[#feeafa] lg:text-6xl sm:text-5xl">
+            <h1 className="text-4xl font-bold tracking-tight text-[#feeafa] lg:text-5xl sm:text-4xl">
               Change must occur in the World
             </h1>
-            <p className="mt-6 text-xl lg:text-2xl  font-semibold leading-8 text-[#feeafa]">
+            <p className="mt-6 text-xl lg:text-xl   text-[#feeafa]">
             Through cultural collaboration and education, we seek to create a world where nature would be conserved and our environment protected
             </p>
 

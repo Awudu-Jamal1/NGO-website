@@ -56,7 +56,7 @@ function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className={`hover:underline text-LG font-semibold text-main`}
+              className={`hover:underline text-[0.75rem] font-semibold text-main`}
             >
               <div>{item.name}</div>
             </a>
@@ -65,11 +65,11 @@ function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end   ">
           <a
             href="#"
-            className={`text-lg font-semibold leading-6 text-red-200 hover:text-teal text-main `}
+            className={`text-[0.7rem] font-semibold leading-6 text-red-200 hover:text-teal text-main `}
           >
             DONATE{" "}
             <span aria-hidden="true">
-              <HeartIcon className="h-4 w-6 inline" />
+              <HeartIcon className="h-3 w-5 inline" />
             </span>
           </a>
         </div>

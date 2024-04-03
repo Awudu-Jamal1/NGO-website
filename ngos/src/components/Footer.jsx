@@ -3,7 +3,7 @@ import logo from "../assets/images/logo 3.png"
 function Footer() {
     return ( <>
 
-    <footer id="ct" className="mx-auto max-w-7xl px-6   lg:px-8 bg-text1 shadow-lg py-8 text-main">
+    <footer id="ct" className=" px-6   lg:px-8 bg-text1 shadow-lg py-8 text-main">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-2 gap-y-16  border-gray-200   lg:mx-0 lg:max-w-none lg:grid-cols-3">
 
             <div

@@ -24,38 +24,30 @@ const car =[{
 },{
     id:4,
     slide:'Slide 4'
-},{
-    id:5,
-    slide:'Slide 5'
 },]
  function Carousel ()  {
 
 
   return (
-    <div >
-  <Swiper
-
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper py-16 "
-      >
-        {car.map((cars)=>(
-            <SwiperSlide className='py-48 relative gap-1 bg-main opacity-70 hover:opacity-90  border-yellow text-white transition ease-out delay-300 text-center text-lg font-bold'
-            style={{ backgroundImage: `url(${cars.img})` ,    backgroundSize: 'cover',
-            backgroundPosition:'center',
-            backgroundRepeat:' no-repeat' }}
-            key={cars.id}>
-               <div className="style ">
-                {cars.slide}
-              </div>
-            </SwiperSlide>
-        ))}
-      </Swiper>
-
+    <div className='mx-auto max-w-7xl px-6 lg:px-8' >
+   <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-2 gap-y-16  border-gray-200   lg:mx-0 lg:max-w-none lg:grid-cols-4">
+          {car.map((post) => (
+            <article
+              style={{
+                backgroundImage: `url(${post.img})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: " no-repeat",
+              }}
+              key={post.id}
+              className="flex py-32 text-center bg-main relative  max-w-xl  opacity-90 transition ease-out delay-300 hover:opacity-100
+               hover:bg-ghover flex-col items-center justify-between"
+            >
+              <h1 className="text-2xl font-bold text-white">{post.slide}</h1>
+              {/* <div className="absolute style  border"><img style={{height:"15em",top:"1"}} src={post.image} alt="" /></div> */}
+            </article>
+          ))}
+        </div>
     </div>
 
   );
