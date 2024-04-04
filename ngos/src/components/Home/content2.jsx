@@ -5,7 +5,7 @@ function Content2() {
     return (  <>
     <div id="about" className="mx-auto max-w-4xl py-10 ">
 
-<div className="text-center py-10">
+<div className="text-center py-5">
   <h1 className="text-4xl font-semibold tracking-tight text-main3 sm:text-3xl">
     About Us
   </h1>
