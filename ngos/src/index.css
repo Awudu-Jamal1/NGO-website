@@ -9,6 +9,8 @@
 }
 body{
     font-family: 'Noto Sans', sans-serif;
+    background: #faf7f2;
+    /* background:#fff ; */
 }
 .coreImg{
     background-image: url('./assets/images/edfo.jpg');
@@ -25,7 +27,11 @@ body{
     background-repeat: no-repeat;
 
 } */
+.listz{
+    /* background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, .8) 50%, #293541 100%); */
+    background: linear-gradient(to bottom, rgb(48, 63, 43, 0) 0, rgb(48, 63, 43,.8) 50%, rgb(48, 63, 43) 100%);
 
+}
 
 .icons8-facebook {
     display: inline-block;
@@ -40,3 +46,13 @@ body{
         height: 30px;
         background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoNS4zMzMzMyw1LjMzMzMzKSI+PHBhdGggZD0iTTE1LDRjLTYuMDYzNDEsMCAtMTEsNC45MzY1OSAtMTEsMTF2MThjMCw2LjA2MzQxIDQuOTM2NTksMTEgMTEsMTFoMThjNi4wNjM0MSwwIDExLC00LjkzNjU5IDExLC0xMXYtMThjMCwtNi4wNjM0MSAtNC45MzY1OSwtMTEgLTExLC0xMXpNMTUsNmgxOGM0Ljk4MjU5LDAgOSw0LjAxNzQxIDksOXYxOGMwLDQuOTgyNTkgLTQuMDE3NDEsOSAtOSw5aC0xOGMtNC45ODI1OSwwIC05LC00LjAxNzQxIC05LC05di0xOGMwLC00Ljk4MjU5IDQuMDE3NDEsLTkgOSwtOXpNMzUsMTFjLTEuMTA1LDAgLTIsMC44OTUgLTIsMmMwLDEuMTA1IDAuODk1LDIgMiwyYzEuMTA1LDAgMiwtMC44OTUgMiwtMmMwLC0xLjEwNSAtMC44OTUsLTIgLTIsLTJ6TTI0LDE0Yy01LjUxMTMzLDAgLTEwLDQuNDg4NjcgLTEwLDEwYzAsNS41MTEzMyA0LjQ4ODY3LDEwIDEwLDEwYzUuNTExMzMsMCAxMCwtNC40ODg2NyAxMCwtMTBjMCwtNS41MTEzMyAtNC40ODg2NywtMTAgLTEwLC0xMHpNMjQsMTZjNC40MzA2NywwIDgsMy41NjkzMyA4LDhjMCw0LjQzMDY3IC0zLjU2OTMzLDggLTgsOGMtNC40MzA2NywwIC04LC0zLjU2OTMzIC04LC04YzAsLTQuNDMwNjcgMy41NjkzMywtOCA4LC04eiI+PC9wYXRoPjwvZz48L2c+Cjwvc3ZnPg==') 50% 50% no-repeat;
         background-size: 100%; }
+
+
+        .donate {
+            background: linear-gradient( rgba(38, 40, 37, 0.8) 0, rgb(38, 40, 37, 0.8) 50%, rgb(38, 40, 37, 0) 100%);
+
+           
+        }
+        footer{
+            background:#455d58; 
+        }

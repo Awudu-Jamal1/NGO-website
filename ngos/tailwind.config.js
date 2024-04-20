@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+import withMT from "@material-tailwind/html/utils/withMT";
+export default withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -11,7 +12,7 @@ export default {
       'white':'#fff',
       'ghover':'#004b23',
       'text1':'#b7b7a4',
-      'main3':'#02461f',
+      'main3':'#455d58',
 
 
 
@@ -41,5 +42,5 @@ export default {
     extend: {},
   },
   plugins: [],
-}
+})
 

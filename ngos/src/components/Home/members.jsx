@@ -45,7 +45,7 @@ function Member() {
               alt="SavvyCal"
               // width={158}
               // height={48}
-              style={{ height: "5rem" }}
+              style={{ height: "6rem" }}
             />
             <div className="py-6">
               <p className=" text-main3 font-semibold text-[0.8em] tracking-wide">

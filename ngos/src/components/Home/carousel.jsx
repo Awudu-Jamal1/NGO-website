@@ -21,31 +21,39 @@ const car =[{
     id:3,
     slide:'Slide 3',
     img:activity2
-},{
-    id:4,
-    slide:'Slide 4'
-},]
+}
+// ,{
+//     id:4,
+//     slide:'Slide 4'
+// }
+,]
  function Carousel ()  {
 
 
   return (
     <div className='mx-auto max-w-7xl px-6 lg:px-8' >
-   <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-2 gap-y-16  border-gray-200   lg:mx-0 lg:max-w-none lg:grid-cols-4">
+   <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-10 gap-y-16  border-gray-200   lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {car.map((post) => (
-            <article
-              style={{
+            <article className='shadow-md transition ease-out delay-100 hover:shadow-xl' key={post.id}>
+              <div style={{
                 backgroundImage: `url(${post.img})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: " no-repeat",
               }}
               key={post.id}
-              className="flex py-32 text-center bg-main relative  max-w-xl  opacity-90 transition ease-out delay-300 hover:opacity-100
-               hover:bg-ghover flex-col items-center justify-between"
+              className="flex py-56 text-center bg-main relative  max-w-xl  opacity-90 
+                flex-col items-center justify-between"
             >
-              <h1 className="text-2xl font-semibold text-main3">{post.slide}</h1>
+              {/* <h1 className="text-2xl font-semibold text-main3">{post.slide}</h1> */}
               {/* <div className="absolute style  border"><img style={{height:"15em",top:"1"}} src={post.image} alt="" /></div> */}
-            </article>
+            </div>
+            <div className='pt-3 py-28 px-4'>
+              <div className='text-main3 text-xl font-semibold tracking-wide'> This is The Topic</div>
+              <div className='text-[0.7em] py-2 text-text1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus obcaecati expedita, maiore</div>
+            </div>
+
+              </article>
           ))}
         </div>
     </div>

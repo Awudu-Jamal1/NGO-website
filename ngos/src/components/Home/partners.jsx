@@ -1,48 +1,23 @@
+import dry from "../../assets/images/dried.png"
+
 export default function Partners() {
     return (
-      <div className="bg-white py-5 sm:py-16">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-            Our Partners
-          </h2>
-          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-              alt="Transistor"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-              alt="Reform"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-              alt="Tuple"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-              alt="SavvyCal"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-              alt="Statamic"
-              width={158}
-              height={48}
-            />
-          </div>
+      <div className="  w relative  ">
+        
+          <img className="w-full h-[25em] " src={dry} alt="" />
+        
+        <div className="absolute flex justify-center text-center items-center top-0 donate h-[25em] w-full   ">
+          <div>
+          <div className="text-4xl  text-[#fff] font-bold">
+          Help us Make The Change
         </div>
+        <div className="py-5">
+          <button className="bg-[red] text-[#fff] py-3 px-5 font-bold text-lg ">DONATE NOW</button>
+        </div>
+          </div>
+       
+        </div>
+       
       </div>
     )
   }

@@ -4,12 +4,12 @@ import pic2 from "../../assets/images/pic2.jpg";
 const posts = [
   {
     id: 1,
-    title: "Work One",
+    title: "Organised project to plant trees",
     image: pic1,
   },
   {
     id: 2,
-    title: "Work Two",
+    title: "Educated kids in This school",
     image: pic2,
   },
   {
@@ -22,18 +22,13 @@ const posts = [
     title: "Work Two",
     image: pic2,
   },
-  {
-    id: 5,
-    title: "Work Three",
-    image: pic3,
-  },
 ];
 
 export default function Content3() {
   return (
-    <div id="ow" className="bg-white py-2">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-2 gap-y-16  border-gray-200   lg:mx-0 lg:max-w-none lg:grid-cols-5">
+    <div id="ow" className="py-2">
+      <div className="mx-auto max-w-full  ">
+        <div className="mx-auto grid max-w-full  grid-cols-1 gap-x-1 gap-y-3     lg:mx-0 lg:max-w-full sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4">
           {posts.map((post) => (
             <article
               style={{
@@ -43,11 +38,16 @@ export default function Content3() {
                 backgroundRepeat: " no-repeat",
               }}
               key={post.id}
-              className="flex py-32 text-center bg-main relative  max-w-xl  opacity-90 transition ease-out delay-300 hover:opacity-100
-               hover:bg-ghover flex-col items-center justify-between"
+              className="flex py-28 relative bg-main relative  lg:max-w-xl  opacity-90 transition ease-out delay-100 hover:scale-90
+               hover:bg-ghover items-end border self-end"
             >
-              <h1 className="text-2xl text-white">{post.title}</h1>
-              {/* <div className="absolute style  border"><img style={{height:"15em",top:"1"}} src={post.image} alt="" /></div> */}
+              <div className="absolute pl-3 w-full bottom-0 py-4 listz  ">
+                <h1 className="text-[0.8em] font-bold text-white">
+                  {post.title}
+                </h1>
+              </div>
+
+              {/* <div className="absolute1 style  border"><img style={{height:"15em",top:"1"}} src={post.image} alt="" /></div> */}
             </article>
           ))}
         </div>
