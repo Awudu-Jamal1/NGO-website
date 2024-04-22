@@ -12,7 +12,7 @@ export default function Partners() {
           Help us Make The Change
         </div>
         <div className="py-5">
-          <button className="bg-[red] text-[#fff] py-3 px-5 font-bold text-lg ">DONATE NOW</button>
+          <button className=" bg-[#cc2936] hover:bg-[#dd4b1a] text-[#fff] py-3 px-8 font-bold text-lg ">DONATE NOW</button>
         </div>
           </div>
        

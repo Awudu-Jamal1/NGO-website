@@ -10,8 +10,7 @@ function Content2() {
     About Us
   </h1>
   <p className="mt-6 text-2xl  leading-8 text-text1">
-    To inspire millions of individuals around the globe to come up with innovative ideas and solutions to protect and part of the solution.
-  </p>
+   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus numquam voluptatibus, ratione perferendis aspernatur ab molestias at saepe vel dolorum vero voluptates perspiciatis impedit. </p>
 
 
 </div>
