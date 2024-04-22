@@ -48,10 +48,10 @@ function Member() {
               style={{ height: "6rem" }}
             />
             <div className="py-6">
-              <p className=" text-main3 font-semibold text-[0.8em] tracking-wide">
+              <p className=" text-main3 font-semibold text-[0.9em] tracking-wide">
                 {e.name}
               </p>
-              <p className="text-text1  text-[0.75em] tracking-wide">
+              <p className="text-text1  text-[0.8em] tracking-wide">
                 {e.title}
               </p>
             </div>

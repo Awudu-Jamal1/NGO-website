@@ -50,7 +50,7 @@ const car =[{
             </div>
             <div className='pt-3 py-28 px-4'>
               <div className='text-main3 text-xl font-semibold tracking-wide'> This is The Topic</div>
-              <div className='text-[0.7em] py-2 text-text1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus obcaecati expedita, maiore</div>
+              <div className='text-[0.8em] py-2 text-text1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus obcaecati expedita, maiore</div>
             </div>
 
               </article>

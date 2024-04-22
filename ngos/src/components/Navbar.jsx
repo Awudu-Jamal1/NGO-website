@@ -65,7 +65,7 @@ function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end   ">
           <a
             href="#"
-            className={`text-[0.7rem] font-semibold leading-6 text-red-200 hover:text-teal text-main3 `}
+            className={`text-[0.7rem] font-semibold leading-6 text-main3 hover:text-teal text-main3 `}
           >
             DONATE{" "}
             <span aria-hidden="true">
