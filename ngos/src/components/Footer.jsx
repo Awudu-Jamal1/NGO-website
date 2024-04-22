@@ -3,7 +3,7 @@ import logo from "../assets/images/logo 3.png";
 function Footer() {
   return (
     <>
-      <footer className=" px-6  flex justify-center lg:px-8  shadow-inner py-10 text-[#fff]">
+      <footer id="ct" className=" px-6  flex justify-center lg:px-8  shadow-inner py-10 text-[#fff]">
         <div className="grid  place-items-center   lg:grid-cols-2 sm:grid-cols-3 w-[70em]">
           <div className="py-5">
             <h2 className="font-bold text-2xl">Let's Talk</h2>

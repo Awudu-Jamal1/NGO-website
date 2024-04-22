@@ -2,7 +2,7 @@ import dry from "../../assets/images/dried.png"
 
 export default function Partners() {
     return (
-      <div className="  w relative  ">
+      <div id="do" className="  w relative  ">
         
           <img className="w-full h-[25em] " src={dry} alt="" />
         

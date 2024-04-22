@@ -35,7 +35,7 @@ const mem = [
 function Member() {
   return (
     <>
-      <div className="grid lg:grid-cols-4 md:grid-cols-4  sm:grid-cols-2  gap-1">
+      <div id="ot" className="grid  lg:grid-cols-4 md:grid-cols-4  sm:grid-cols-2  gap-1">
         {mem.map((e) => (
           <div key={e.id} className="py-5 px-4  object-center">
             {" "}
