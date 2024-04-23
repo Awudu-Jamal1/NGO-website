@@ -1,10 +1,17 @@
+import { useState } from "react";
 import logo from "../assets/images/logo 3.png";
 
 function Footer() {
+  const [ data, setData] = useState("")
+  const changeHandler=(e)=>{
+  const info =e.target.value
+    setData(info)
+
+  }
   return (
     <>
       <footer id="ct" className=" px-6  flex justify-center lg:px-8  shadow-inner py-10 text-[#fff]">
-        <div className="grid  place-items-center   lg:grid-cols-2 sm:grid-cols-3 w-[70em]">
+        <div className="grid  place-items-center   lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-[70em]">
           <div className="py-5">
             <h2 className="font-bold text-2xl">Let's Talk</h2>
             <p className="text-[0.9em] w-[20em] py-5">
@@ -17,14 +24,15 @@ function Footer() {
                   type="email"
                   className="peer h-full w-full rounded-[7px] border border-[#fff] border-t-transparent bg-transparent px-3 py-2.5 pr-20 font-sans text-sm font-normal text-[#fff] outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-[#fff] placeholder-shown:border-[#fff] focus:border-2 focus:border-[#fff] focus:border-t-transparent focus:outline-0 disabled:border-0"
                   placeholder=" "
-                  value="11"
+                  value={data}
+                  onChange={changeHandler}
                 />
                 <label className="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-[#fff] transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-[#fff] before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-[#fff] after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-[#fff] peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-[#fff] peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-[#fff] peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-[#fff] peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-[#fff]">
                   Email Address
                 </label>
               </div>
               <button
-                disabled
+               
                 className="!absolute right-1 top-1 select-none rounded border  py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-[#fff] transition-all hover:shadow-lg hover:shadow-[#fff] focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 type="button"
               >
@@ -50,7 +58,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="flex justify-center py-5">
+            <div className="flex justify-center mt-6 ">
               <div className="px-4">
                 <svg
                   stroke="currentColor"
@@ -107,8 +115,9 @@ function Footer() {
               <div></div>
             </div>
           </div>
-          <div className="py-6 text-[0.9em]"> © Copyright 2024 </div>
+          <div className="py-2 mt-10  w-full text-[0.9em]"> © Copyright 2024 </div>
         </div>
+        
       </footer>
     </>
   );
