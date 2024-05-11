@@ -9,8 +9,8 @@ function Content() {
             <h1 className="text-4xl font-semibold tracking-tight text-[#feeafa] lg:text-5xl sm:text-4xl">
               Welcome To Globally Green
             </h1>
-            <p className="mt-6 text-xl lg:text-xl   text-[#feeafa]">
-            To inspire millions of individuals around the globe to come up with innovative ideas and solutions to protect and part of the solution.</p>
+            {/* <p className="mt-6 text-xl lg:text-xl   text-[#feeafa]">
+            To inspire millions of individuals around the globe to come up with innovative ideas and solutions to protect and part of the solution.</p> */}
 
           </div>
           {/* <div className="mt-20 flex  items-center justify-center gap-x-6">

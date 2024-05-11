@@ -5,12 +5,17 @@ function Content2() {
     return (  <>
     <div id="about" className="mx-auto max-w-4xl py-10 ">
 
-<div className="text-center py-5">
-  <h1 className="text-4xl font-semibold tracking-tight text-main3 sm:text-3xl">
+<div className=" py-5">
+  <h1 className="text-4xl py-5 text-center font-semibold tracking-tight text-main3 sm:text-3xl">
     About Us
   </h1>
-  <p className="mt-6 text-2xl  leading-8 text-text1">
-   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus numquam voluptatibus, ratione perferendis aspernatur ab molestias at saepe vel dolorum vero voluptates perspiciatis impedit. </p>
+  
+   <p className=" text-2xl lg:text-2xl py-2  leading-loose text-text1 px-5">
+            Globally Green is a Non Governmental Organisation whose mission is to inspire millions individuals
+            around the globe to come up with innovative ideas and solutions to protect our enivronment and be part of the solution.</p>
+            <p className="text-2xl lg:text-2xl py-2 leading-loose   text-text1 px-5 ">
+              Through cultural collaboration and education, we seek to create a world where nature would be conserved and our enivronment protected
+            </p>
 
 
 </div>

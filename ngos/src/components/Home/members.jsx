@@ -2,6 +2,8 @@ import member1 from "../../assets/images/Frame 3.png";
 import member2 from "../../assets/images/Frame 4.png";
 import member3 from "../../assets/images/Frame 5.png";
 import member4 from "../../assets/images/saudat.jpg";
+import member5 from "../../assets/images/Frame 8.png";
+import member6 from "../../assets/images/Frame 9.png";
 // import member1 from '../../assets/images/Frame 3.png'
 const mem = [
   {
@@ -25,17 +27,27 @@ const mem = [
     image: member3,
   },
   {
-    id: 3,
+    id: 4,
     title: "Volunteer Coordinator",
     name:'Desmond Mensah',
     image: member1,
+  },{
+    id: 5,
+    title: "Project Coordinator",
+    name:'Hamida annoh',
+    image: member5,
+  },{
+    id: 6,
+    title: "Content Manager",
+    name:'Nana Boakye Yiadom',
+    image: member6,
   },
 ];
 
 function Member() {
   return (
     <>
-      <div id="ot" className="grid  lg:grid-cols-4 md:grid-cols-4  sm:grid-cols-2  gap-1">
+      <div id="ot" className="grid  lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2  gap-1">
         {mem.map((e) => (
           <div key={e.id} className="py-5 px-4  object-center">
             {" "}
