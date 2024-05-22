@@ -10,6 +10,7 @@ const navigation = [
   { name: "OUR WORK", to: "ow" },
   { name: "OUR TEAM", to: "ot" },
   { name: "CONTACT US", to: "ct" },
+  { name: "DONATE NOW", to: "ct" },
 ];
 
 function Navbar() {
@@ -43,20 +44,13 @@ function Navbar() {
               smooth={true}
               offset={-70} // Adjust offset as needed
               duration={500}
-              className={`hover:underline text-[0.75rem] font-semibold text-main3`}
+              className={`hover:underline text-[0.9rem] font-semibold text-main3`}
             >
               {item.name}
             </Link>
           ))}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link to="do" spy={true}
-              smooth={true}
-              offset={-70} // Adjust offset as needed
-              duration={500} className={`text-[0.7rem] font-semibold leading-6 text-main3 hover:text-teal text-main3`}>
-            DONATE <HeartIcon className="h-3 w-5 inline" />
-          </Link>
-        </div>
+       
       </nav>
       <Dialog as="div" className="lg:hidden text-main" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-50" />

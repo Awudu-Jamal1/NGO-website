@@ -34,7 +34,7 @@ const mem = [
   },{
     id: 5,
     title: "Project Coordinator",
-    name:'Hamida annoh',
+    name:'Hamida Annoh',
     image: member5,
   },{
     id: 6,
