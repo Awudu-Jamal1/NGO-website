@@ -17,11 +17,11 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex w-full items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
-        <div className="flex lg:flex-1">
+      <nav className="flex w-full flex-col items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
+        <div className="flex lg:flex- py-8">
           <a href="#home" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
-            <img src={logo} alt="" />
+            <img  className="h-[8em]" src={logo} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">

@@ -7,12 +7,12 @@ export default withMT({
   ],
   theme: {
     colors:{
-      '2main':'#008000',
+      'main3':'#008000',
       'main':'#8cb369',
       'white':'#fff',
       'ghover':'#004b23',
       'text1':'#b7b7a4',
-      'main3':'#455d58',
+      '2main':'#455d58',
 
 
 

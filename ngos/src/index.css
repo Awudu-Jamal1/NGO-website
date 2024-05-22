@@ -9,8 +9,8 @@
 }
 body{
     font-family: "Platypi", serif;
-    background: #faf7f2;
-    /* background:#fff ; */
+    /* background: #faf7f2;f*/
+    background:#fff ;
 }
 .coreImg{
     background-image: url('./assets/images/edfo.jpg');
@@ -54,5 +54,5 @@ body{
            
         }
         footer{
-            background:#455d58; 
+            
         }

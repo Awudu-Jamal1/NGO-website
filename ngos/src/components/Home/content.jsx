@@ -3,7 +3,7 @@ function Content() {
 
 <div className=" px-6  lg:px-8  clearz">
 
-        <div className="mx-auto max-w-2xl py-16 sm:py-20  lg:py-16 ">
+        <div className="mx-auto max-w-2xl py-16 sm:py-20  lg:py-44 ">
 
           <div className="text-center">
             <h1 className="text-4xl font-semibold tracking-tight text-[#feeafa] lg:text-5xl sm:text-4xl">
