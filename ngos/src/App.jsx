@@ -5,6 +5,7 @@ import './App.css'
 import { createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout';
 import Homepage from './components/Home/homepage';
+import { Contact } from './components/Contact/Cmain';
 
 function App() {
   const router = createBrowserRouter([
@@ -13,7 +14,10 @@ function App() {
       element: <Layout/>,
       children:[
         {path: "/",
-        element: <Homepage/> }
+        element: <Homepage/> },
+        {path: "/contact",
+        element: <Contact/> }
+
       ]
     },
   ]);

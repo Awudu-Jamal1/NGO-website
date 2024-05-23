@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon, HeartIcon } from "@heroicons/react/24/outline";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo 2.png";
-
+Link
 const navigation = [
   { name: "HOME", to: "home" },
   { name: "ABOUT US", to: "about" },
   { name: "OUR WORK", to: "ow" },
   { name: "OUR TEAM", to: "ot" },
-  { name: "CONTACT US", to: "ct" },
-  { name: "DONATE NOW", to: "ct" },
+  { name: "CONTACT US", to: "contact" },
+  { name: "DONATE NOW", to: "" },
 ];
 
 function Navbar() {
@@ -40,11 +40,8 @@ function Navbar() {
             <Link
               key={item.name}
               to={item.to}
-              spy={true}
-              smooth={true}
-              offset={-70} // Adjust offset as needed
-              duration={500}
-              className={`hover:underline text-[0.9rem] font-semibold text-main3`}
+             
+              className={`hover:underline text-[0.9rem] font-semibold text-main3 cursor-pointer`}
             >
               {item.name}
             </Link>

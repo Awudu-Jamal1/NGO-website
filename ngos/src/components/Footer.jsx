@@ -25,8 +25,8 @@ function Footer() {
                 Sectors
               </div>
               <ul className="text-[0.9em]">
-                <li>Climate Change</li>
-                <li>Circular Economy</li>
+                <li className="hover:underline pointer-cursor">Climate Change</li>
+                <li className="hover:underline">Circular Economy</li>
               </ul>
             </div>
             <div className="py-3">
@@ -34,8 +34,8 @@ function Footer() {
                 Company
               </div>
               <ul className="text-[0.9em] ">
-                <li className="">About Us</li>
-                <li>Our Works</li>
+                <li className="hover:underline">About Us</li>
+                <li className="hover:underline">Our Works</li>
               </ul>
             </div>
             <div className="py-3">
