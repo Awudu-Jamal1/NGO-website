@@ -59,7 +59,7 @@ function Navbar() {
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-main"
+              className="-m-2.5 rounded-md p-2.5 text-main3"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
@@ -73,10 +73,7 @@ function Navbar() {
                   <Link
                     key={item.name}
                     to={item.to}
-                    spy={true}
-                    smooth={true}
-                    offset={-70} // Adjust offset as needed
-                    duration={500}
+                    
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
