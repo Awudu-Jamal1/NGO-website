@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/images/logo 2.png";
 Link
 const navigation = [
-  { name: "HOME", to: "home" },
+  { name: "HOME", to: "/" },
   { name: "ABOUT US", to: "about" },
   { name: "OUR WORK", to: "ow" },
   { name: "CONTACT US", to: "contact" },
@@ -48,7 +48,7 @@ function Navbar() {
         </div>
        
       </nav>
-      <Dialog as="div" className="lg:hidden text-main" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+      <Dialog as="div" className="lg:hidden text-main3" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-[50%] overflow-y-auto bg-white text-main px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
