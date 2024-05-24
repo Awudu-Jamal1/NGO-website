@@ -8,9 +8,8 @@ const navigation = [
   { name: "HOME", to: "home" },
   { name: "ABOUT US", to: "about" },
   { name: "OUR WORK", to: "ow" },
-  { name: "OUR TEAM", to: "ot" },
   { name: "CONTACT US", to: "contact" },
-  { name: "DONATE NOW", to: "" },
+  { name: "DONATE ", to: "" },
 ];
 
 function Navbar() {
