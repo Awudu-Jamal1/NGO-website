@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon, HeartIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo 2.png";
+import logo from "../assets/images/glo 1.png";
 Link
 const navigation = [
   { name: "HOME", to: "home" },
@@ -19,10 +19,10 @@ function Navbar() {
   return (
     <>
       <nav className="flex w-full flex-col items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
-        <div className="flex lg:flex- py-8">
+        <div className="flex lg:flex- ">
           <a href="#home" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
-            <img  className="h-[8em]" src={logo} alt="" />
+            <img  className="h-[15em] w-[30em]" src={logo} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
