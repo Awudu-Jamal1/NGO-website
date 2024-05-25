@@ -5,12 +5,11 @@ import { Link } from "react-router-dom";
 import logo from "../assets/images/glo 1.png";
 Link
 const navigation = [
-  { name: "HOME", to: "home" },
+  { name: "HOME", to: "/" },
   { name: "ABOUT US", to: "about" },
   { name: "OUR WORK", to: "ow" },
-  { name: "OUR TEAM", to: "ot" },
   { name: "CONTACT US", to: "contact" },
-  { name: "DONATE NOW", to: "" },
+  { name: "DONATE ", to: "" },
 ];
 
 function Navbar() {
@@ -49,7 +48,7 @@ function Navbar() {
         </div>
        
       </nav>
-      <Dialog as="div" className="lg:hidden text-main" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+      <Dialog as="div" className="lg:hidden text-main3" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-[50%] overflow-y-auto bg-white text-main px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
@@ -59,7 +58,7 @@ function Navbar() {
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-main"
+              className="-m-2.5 rounded-md p-2.5 text-main3"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
@@ -73,10 +72,7 @@ function Navbar() {
                   <Link
                     key={item.name}
                     to={item.to}
-                    spy={true}
-                    smooth={true}
-                    offset={-70} // Adjust offset as needed
-                    duration={500}
+                    
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
