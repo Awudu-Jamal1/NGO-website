@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/images/logo 3.png";
+import logo from "../assets/images/glo 1.png";
 import { Facebook } from "./icons/facebook";
 import { Instagram } from "./icons/instagram";
 import { Twitter } from "./icons/twitter";
@@ -14,17 +14,17 @@ function Footer() {
   return (
     <>
       <footer id="ct" className="   shadow-inner py-10 text-main3">
-        <div className="grid  w-90   lg:grid-cols-6 sm:grid-cols-1 gap-3">
+        <div className="grid  w-90   lg:grid-cols-6 sm:grid-cols-1 gap-1">
           <div></div>
-          <div className="text-[8em]">
-            <img className="" src={logo} alt="" />
+          <div className="col-span-2   text-[em]">
+            <img className="h-[10em] w-[25em]"  src={logo} alt="" />
           </div>
-          <div className="col-span-3  grid pt-5 justify-items-center  lg:grid-cols-4 sm:grid-cols-4 ">
+          <div className="col-span-3  grid pt-5 justify-items-center  lg:grid-cols-4 grid-cols-2 ">
             <div className="py-2">
               <div className="font-bold text-[1.2em] text-center py-3">
                 Sectors
               </div>
-              <ul className="text-[0.9em]">
+              <ul className="text-[1em]">
                 <li className="hover:underline pointer-cursor">Climate Change</li>
                 <li className="hover:underline">Circular Economy</li>
               </ul>
@@ -33,14 +33,14 @@ function Footer() {
               <div className="font-bold text-[1.2em] text-center py-2">
                 Company
               </div>
-              <ul className="text-[0.9em] ">
+              <ul className="text-[1em] ">
                 <li className="hover:underline">About Us</li>
                 <li className="hover:underline">Our Works</li>
               </ul>
             </div>
-            <div className="py-3">
+            <div className="py-3  col-span-2 lg:col-span-1">
               <div className="font-bold text-[1.2em] text-center py-2">Socials</div>
-              <ul className="text-[0.9em] grid lg:grid-cols-1  gap-8 lg:gap-1 grid-cols-4 ">
+              <ul className="text-[1em] grid lg:grid-cols-1  gap-8 lg:gap-1 grid-cols-4 ">
                 <li className="flex py-1 hover:underline">
                   <span className="px-1">
                     <Instagram />
