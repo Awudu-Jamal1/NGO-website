@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex w-full flex-col items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
+      <nav className="flex w-full lg:flex-col fex-row items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
         <div className="flex lg:flex- ">
           <a href="#home" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
