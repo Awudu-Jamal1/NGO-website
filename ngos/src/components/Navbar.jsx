@@ -23,7 +23,7 @@ function Navbar() {
         <div className="flex lg:flex- ">
           <a href="#home" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
-            <img  className="h-[10em] w-[25em]" src={logo} alt="" />
+            <img  className="h-[8em] w-[20em]" src={logo} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
