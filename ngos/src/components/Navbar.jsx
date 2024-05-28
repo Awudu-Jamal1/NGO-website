@@ -7,7 +7,9 @@ Link
 const navigation = [
   { name: "HOME", to: "/" },
   { name: "ABOUT US", to: "about" },
-  { name: "OUR WORK", to: "ow" },
+  { name: "OUR TEAM", to: "our team"},
+
+  { name: "OUR WORK", to: "our Work"},
   { name: "CONTACT US", to: "contact" },
   { name: "DONATE ", to: "" },
 ];

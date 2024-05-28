@@ -56,3 +56,17 @@ body{
         footer{
             
         }
+
+        .img1{
+            background-image:  url('./assets/images/work5.jpg') ;
+            background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        }
+
+        .img2{
+            background-image:  url('./assets/images/activity.jpg') ;
+            background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        }

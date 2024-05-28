@@ -49,15 +49,15 @@ function Member() {
     <>
       <div id="ot" className="grid  lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2  gap-1">
         {mem.map((e) => (
-          <div key={e.id} className="py-5 px-4  object-center">
+          <div key={e.id} className="py-5  ">
             {" "}
             <img
-              className="col-span-2 max-h-32  m-auto rounded-full object-contain sm:col-start-2 lg:col-span-1"
+              className="col-span-2 max-h-54  m-auto  object-contain sm:col-start-2 lg:col-span-1"
               src={e.image}
               alt="SavvyCal"
               // width={158}
               // height={48}
-              style={{ height: "6rem" }}
+              style={{ height: "12rem" }}
             />
             <div className="py-6">
               <p className=" text-main3 font-semibold text-[0.9em] tracking-wide">

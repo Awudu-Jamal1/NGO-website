@@ -29,7 +29,7 @@ function Content2() {
   </h1>
   <div>
 
- <Member/>
+ {/* <Member/> */}
 
 
   </div>
