@@ -14,7 +14,7 @@ function Footer() {
   return (
     <>
       <footer id="ct" className="   shadow-inner py-10 text-main3">
-        <div className="grid  w-90   lg:grid-cols-6   md:grid-cols-6 sm:grid-cols-1 gap-1">
+        <div className="grid  w-90   lg:grid-cols-6   sm:grid-cols-1 gap-1">
           <div></div>
           <div className="col-span-2   text-[em]">
             <img className="h-[10em] w-[25em]"  src={logo} alt="" />
@@ -38,7 +38,7 @@ function Footer() {
                 <li className="hover:underline">Our Works</li>
               </ul>
             </div>
-            <div className="py-3  col-span-2 md:col-span-1 lg:col-span-1">
+            <div className="py-3  col-span-2 lg:col-span-1">
               <div className="font-bold text-[1.2em] text-center py-2">Socials</div>
               <ul className="text-[1em] grid lg:grid-cols-1  md:grid-cols-1 gap-8 lg:gap-1 grid-cols-4 ">
                 <li className="flex py-1 hover:underline">
