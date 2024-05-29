@@ -7,6 +7,20 @@ import { Linked } from "./icons/linked";
 
 function Footer() {
   // const [data, setData] = useState("");
+
+https://x.com/globallygreeen?s=11&t=4l2HUMuNGpBM8P0KTfmOkg
+
+https://www.threads.net/@globallygreen_
+
+https://www.instagram.com/globallygreen_?igsh=MWN6NmgzcnF0bnpxNw%3D%3D&utm_source=qr
+
+https://www.facebook.com/profile.php?id=100067696505323&mibextid=ZbWKwL
+
+
+
+
+
+
   const changeHandler = (e) => {
    console.log(e);
    window.open(``)
