@@ -9,7 +9,7 @@ export const About = () => {
         <div className="bg-main3  py-10 pt-8 lg:px-16">
         <div className="lg:w-[40em] px-9 py-8 text-[#fff]">
           <div className="text-7xl font-bold py-5 ">Who We Are</div>
-          <div className=" text-lg py-5 leading-9 tracking-wider">
+          <div className=" text-2xl py-5 leading-8 tracking-wider">
             We are a team of solution driven individuals geared towards
             environmental advocacy and new innovations to help create the world
             we need. Founded in 2020, we have engaged in community-based
