@@ -69,6 +69,7 @@ function Footer() {
                 </li>
               </ul>
             </div>  
+            
             {/* <div className="py-3">
               <div className="font-bold text-[1.2em] text-center py-2">
                 Make DONATION
