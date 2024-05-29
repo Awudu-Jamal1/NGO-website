@@ -6,10 +6,10 @@ import { Twitter } from "./icons/twitter";
 import { Linked } from "./icons/linked";
 
 function Footer() {
-  const [data, setData] = useState("");
+  // const [data, setData] = useState("");
   const changeHandler = (e) => {
-    const info = e.target.value;
-    setData(info);
+   console.log(e);
+   window.open(``)
   };
   return (
     <>
@@ -41,27 +41,27 @@ function Footer() {
             <div className="py-3  col-span-2 lg:col-span-1">
               <div className="font-bold text-[1.2em] text-center py-2">Socials</div>
               <ul className="text-[1em] grid lg:grid-cols-1  md:grid-cols-1 gap-8 lg:gap-1 grid-cols-4 ">
-                <li className="flex py-1 hover:underline">
+                <li onClick={changeHandler('')} className="flex py-1 hover:underline">
                   <span className="px-1">
                     <Instagram />
                   </span>{" "}
                   <span className="hidden  md:block lg:block">Instagram</span>{" "}
                 </li>
 
-                <li className="flex py-1 hover:underline">
+                <li onClick={changeHandler('')} className="flex py-1 hover:underline">
                   <span className="px-1">
                     <Facebook />
                   </span>{" "}
                   <span className="hidden  md:block lg:block" >Facebook</span>{" "}
                 </li>
-                <li className="flex py-1 hover:underline">
+                <li onClick={changeHandler('')}  className="flex py-1 hover:underline">
                   <span className="px-1">
                     <Twitter />
                   </span>{" "}
                   <span className="hidden  md:block lg:block">X</span>{" "}
                 </li>
 
-                <li className="flex py-1 hover:underline ">
+                <li onClick={changeHandler('')} className="flex py-1 hover:underline ">
                   <span className="px-1">
                     <Linked />
                   </span>{" "}
