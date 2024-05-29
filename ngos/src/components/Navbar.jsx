@@ -19,11 +19,11 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex w-full flex-col items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
+      <nav className="flex w-full lg:flex-col fex-row items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
         <div className="flex lg:flex- ">
           <a href="#home" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
-            <img  className="h-[15em] w-[30em]" src={logo} alt="" />
+            <img  className="h-[8em] w-[20em]" src={logo} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -55,7 +55,7 @@ function Navbar() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-[50%] overflow-y-auto bg-white text-main px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+             {/* <span className="sr-only">Your Company</span>*/}
               {/* <img className="h-8 w-auto" src={logo} alt="" /> */}
             </a>
             <button
