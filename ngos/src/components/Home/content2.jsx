@@ -1,9 +1,10 @@
 import Content3 from "./content3";
 import Member from "./members";
+import Vision from "./vision";
 
 function Content2() {
     return (  <>
-    <div id="about" className="mx-auto max-w-4xl py-10 ">
+    {/* <div id="about" className="mx-auto max-w-4xl py-10 ">
 
 <div className=" py-5">
   <h1 className="text-4xl py-5 text-center font-semibold tracking-tight text-main3 sm:text-3xl">
@@ -21,26 +22,26 @@ function Content2() {
 </div>
 
 
-</div>
+</div> */}
 
-<div className="mx-auto max-w-4xl text-center py-4">
-<h1 className="text-2xl max-w- font-semibold leading-8 py-8 tracking-tight text-main3 sm:text-3xl">
+ <div className="mx-auto max-w-4xl text-center py-4">
+{/* <h1 className="text-2xl max-w- font-semibold leading-8 py-8 tracking-tight text-main3 sm:text-3xl">
      Our Team
-  </h1>
+  </h1> */}
   <div>
 
- {/* <Member/> */}
+  <Vision/> 
 
 
   </div>
 
-</div>
+</div> 
 
 
 <div>
 
 </div>
-<div>
+<div className=" bg-[#f8fff4] py-10">
     <Content3/>
 </div>
     </>);

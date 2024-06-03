@@ -49,27 +49,27 @@ const changeHandler = (url) => {
             <div className="py-3  col-span-2 lg:col-span-1">
               <div className="font-bold text-[1.2em] text-center py-2">Socials</div>
               <ul className="text-[1em] grid lg:grid-cols-1  md:grid-cols-1 gap-8 lg:gap-1 grid-cols-4 ">
-                <li onClick={()=> window.open(insta, '_blank')} className="flex py-1 hover:underline">
+                <li onClick={()=> window.open(insta, '_blank')} className="flex py-1  cursor-pointer hover:underline">
                   <span className="px-1">
                     <Instagram />
                   </span>{" "}
                   <span className="hidden  md:block lg:block">Instagram</span>{" "}
                 </li>
 
-                <li onClick={()=> window.open(face, '_blank')}className="flex py-1 hover:underline">
+                <li onClick={()=> window.open(face, '_blank')}className="flex py-1  cursor-pointer hover:underline">
                   <span className="px-1">
                     <Facebook />
                   </span>{" "}
                   <span className="hidden  md:block lg:block" >Facebook</span>{" "}
                 </li>
-                <li onClick={()=> window.open(xs, '_blank')}  className="flex py-1 hover:underline">
+                <li onClick={()=> window.open(xs, '_blank')}  className="flex py-1  cursor-pointer hover:underline">
                   <span className="px-1">
                     <Twitter />
                   </span>{" "}
                   <span className="hidden  md:block lg:block">X</span>{" "}
                 </li>
 
-                <li onClick={changeHandler('')} className="flex py-1 hover:underline ">
+                <li onClick={changeHandler('')} className="flex py-1  cursor-pointer hover:underline ">
                   <span className="px-1">
                     <Linked />
                   </span>{" "}

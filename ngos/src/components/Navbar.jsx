@@ -21,10 +21,10 @@ function Navbar() {
     <>
       <nav className="flex w-full lg:flex-col fex-row items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
         <div className="flex lg:flex- ">
-          <a href="#home" className="-m-1.5 p-1.5  text-white">
+          <Link to="/" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
-            <img  className="h-[8em] w-[20em]" src={logo} alt="" />
-          </a>
+            <img  className="h-[10em] w-[25em]" src={logo} alt="" />
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
