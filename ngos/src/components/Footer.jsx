@@ -22,7 +22,7 @@ function Footer() {
 
   return (
     <>
-      <footer id="ct" className=" bg-[#000]   shadow-inner py-10 text-main3">
+      <footer id="ct" className="   shadow-inner py-10 text-main3">
         <div className="grid  w-90   lg:grid-cols-6   sm:grid-cols-1 gap-1">
           <div></div>
           <div className="col-span-2   text-[em]">
@@ -35,9 +35,10 @@ function Footer() {
               </div>
               <ul className="text-[1em]">
                 <li className="hover:underline pointer-cursor">
-                  Climate Change
+                  Climate Education
                 </li>
-                <li className="hover:underline">Circular Economy</li>
+                <li className="hover:underline">Tree Planting</li>
+                <li className="hover:underline">Workshops</li>
               </ul>
             </div>
             <div className="py-3">
@@ -46,7 +47,8 @@ function Footer() {
               </div>
               <ul className="text-[1em] ">
                 <li className="hover:underline">About Us</li>
-                <li className="hover:underline">Our Works</li>
+                <li className="hover:underline">Our Team</li>
+                <li className="hover:underline">Our Work</li>
               </ul>
             </div>
             <div className="py-3  col-span-2 lg:col-span-1">

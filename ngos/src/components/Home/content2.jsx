@@ -41,7 +41,7 @@ function Content2() {
 <div>
 
 </div>
-<div className=" bg-[#f8fff4] py-10">
+<div className="  py-10">
     <Content3/>
 </div>
     </>);
