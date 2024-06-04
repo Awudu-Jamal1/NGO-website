@@ -7,7 +7,7 @@ export const About = () => {
     <div>
       <div className="mx-auto max-w-5xl pb-16 py-6 text-main3">
         <div className="py-10 pt-8 lg:px-16">
-        <div className="lg:w-[40em] px-9 py-8 text-[#fff]">
+        <div className="lg:w-[40em] px-9 py-8 text-[#000]">
           <div className="text-7xl font-bold py-5 ">Who We Are</div>
           <div className=" text-2xl py-5 leading-8 tracking-wider">
             We are a team of solution driven individuals geared towards
