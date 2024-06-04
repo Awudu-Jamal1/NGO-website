@@ -1,23 +1,33 @@
-import dry from "../../assets/images/dried.png"
+import dry from "../../assets/images/dried.png";
 
 export default function Partners() {
-    return (
-      <div id="do" className="  w relative  ">
-        
-          <img className="w-full h-[25em] " src={dry} alt="" />
-        
-        <div className="absolute flex justify-center text-center items-center top-0 donate h-[25em] w-full   ">
+  return (
+    <div id="do" className="  w relative py-8 ">
+      {/* <img className="w-full h-[25em] " src={dry} alt="" /> */}
+
+      <div className="flex justify-center flex-col md:flex-row border top-0 py-8 px-4 w-full   ">
+        <div>
           <div>
-          <div className="text-4xl  text-[#fff] font-bold">
-          Help us Make The Change
-        </div>
-        <div className="py-5">
-          <button className=" bg-[#cc2936] hover:bg-[#dd4b1a] text-[#fff] py-3 px-8 font-bold text-lg ">DONATE NOW</button>
-        </div>
+            <div className="text-2xl py-4 max-w-[15em] py-4  font-bold">
+              We’re a nonprofit in the business of building a better future.
+            </div>
           </div>
-       
+
+          <div className="py-5 ">
+            <button className=" bg-main3 text-[#fff] py-3 px-3 font-bold text-lg ">
+              DONATE NOW
+            </button>
+          </div>
         </div>
-       
+        <div className="px-6">
+          <p className="py-2">Clean air.</p>
+          <p className="py-2">Clean water.</p>
+          <p className="py-2">Wild places.</p>
+          <p className="py-2">
+            At Globally Green, we think they’re worth fighting for.
+          </p>
+        </div>
       </div>
-    )
-  }
+    </div>
+  );
+}

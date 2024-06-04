@@ -7,7 +7,7 @@ function Vision() {
              flex-col lg:flex-row f">
                 getting
             </div>
-            <div className="bg-[#e9eceb] text-main3 w-[68%] z-50 ml-[15%] mt-[-6%] md:ml-[-6%] md:mt-[4%] px-8 py-5 " >
+            <div className="bg-[#e9eceb] text-main3 w-[68%] z-50 ml-[15%] mt-[-6%]  md:ml-[-6%] md:mt-[4%] px-8 py-5 " >
                 <div className=" px-4 ">
                 
                 <h2 className="text-2xl font-semibold py-4">Our Vision </h2>

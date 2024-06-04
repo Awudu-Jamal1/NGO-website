@@ -39,7 +39,7 @@ export default function Content3() {
           and the planet through the following programs:</h1>
         </div>
         <div className="mx-auto grid max-w-70  grid-cols-1 gap-x-24 gap-y-3  
-           lg:mx-0 lg:max-w-70 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-3">
+           lg:mx-0 lg:max-w-70 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {posts.map((post, i) => (
             <section key={i}>
             <article
@@ -55,7 +55,7 @@ export default function Content3() {
                hover:bg-ghover justify-center cursor-pointer"
             >
               <div className=" py-4 listz text ">
-                <h1 className="text-2xl px-9 break-all tracking-wide font-bold text-white">
+                <h1 className="text-2xl  break-all tracking-wide font-bold text-white">
                   {post.title}
                 </h1>
               </div>

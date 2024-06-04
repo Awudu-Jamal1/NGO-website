@@ -1,6 +1,7 @@
 import Blog from "./blog";
 import Content from "./content";
 import Content2 from "./content2";
+import { JoinUs } from "./join";
 import Partners from "./partners";
 import Trys from "./trys";
 
@@ -9,8 +10,9 @@ function Homepage() {
     <div><Content/>
     <Content2/>
     {/* <Trys/> */}
-    <Blog/>
+    {/* <Blog/> */}
     <Partners/>
+    <JoinUs/>
 
     </div>
 
