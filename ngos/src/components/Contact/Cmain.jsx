@@ -14,14 +14,14 @@ You can reach us through any of the contacts below.
 </div>
 
                 </div>
-                <div className="grid grid-cols-1 gap-16  lg:grid-cols-3 py-8 ">
-                    <div className="">
+                <div className="grid grid-cols-1 gap-16  lg:grid-cols-2 py-8 ">
+                    {/* <div className="">
                         <div className="text-3xl text-[#004b23] font-bold ">Address</div>
                         <div className="text-xl py-4    ">
                         Hse No.30 Ritz Junction, Ashale Botwe Nmai Dzorn Road Madina, Accra, Ghana
                         </div>
 
-                    </div>
+                    </div> */}
                     <div>
                         <div className="text-3xl font-bold text-[#004b23] ">Phone Number</div>
                         <div className="text-xl py-4   ">
