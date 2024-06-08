@@ -1,10 +1,12 @@
+import lead from "../../assets/images/lead.jpg"
+
 export const Founder =()=>{
     return(
         <div>
 
             <div className="grid grid-cols-1 pt-16 lg:grid-cols-2  gap-8 py-4 ">
                 <div className="border">
-
+<img src={lead} className="w-full"  alt="" />
                 </div>
                 <div className="px-2 py-5">
                     <div>

@@ -5,7 +5,7 @@ function Content() {
 
         <div className="mx-auto max-w-5xl  py-16 sm:py-20  lg:pt-20 lg:pb-64 ">
 
-          <div className="w-full  lg:text-left ">
+          <div className="w-full  lg:text-l  ">
             <h1 className=" font-bold  text-[#feeafa] lg:text-7xl text-4xl">
               Globally Green
             </h1>
