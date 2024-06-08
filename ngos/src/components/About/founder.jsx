@@ -14,12 +14,13 @@ export const Founder =()=>{
                     </div>
                     
 <p className="text-normal py-2 leading-8 tracking-wide text-[#000]">
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aspernatur dignissimos odio? Quis perferendis eligendi aliquam! Provident ex vel numquam sequi, facere explicabo similique iure? Soluta culpa tempore minus quidem?
+ At Globally Green, we are a community of individuals who are committed to creating a positive change in our world starting from the grassroot level to the world. Since our founding in 2020, we've been dedicated to educating the  public about the climate crisis and advocating for climate action.Our passionate team and volunteers work tirelessly to ensure that every individual is inspired to take action and an impact is made in every community we find ourselves in.
+We appreciate everyone who is on this journey with us. We're excited to have you with us and look forward to achieving great things together.
 </p>
 
 
 <div>
-    <h2 className="text-2xl text-2main italics font-semi-bold p-2">Saudat Kamarre-Deen, Green Africa Youth Organization</h2>
+    <h2 className="text-2xl text-2main italics font-semi-bold p-2">Saudat Kamarre-Deen, Globally Green</h2>
 </div>
 
                 </div>
