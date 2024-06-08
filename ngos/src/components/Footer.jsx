@@ -24,8 +24,8 @@ function Footer() {
     <>
       <footer id="ct" className="   shadow-inner py-10 text-main3">
         <div className="grid  w-90   lg:grid-cols-6   sm:grid-cols-1 gap-1">
-          <div></div>
-          <div className="col-span-2   text-[em]">
+          
+          <div className="col-span-2   flex justify-center md:justify-center lg:justify-end  text-[em]">
             <img className="h-[10em] w-[25em]" src={logo} alt="" />
           </div>
           <div className="col-span-3  grid pt-5 justify-items-center  lg:grid-cols-4 grid-cols-2 ">

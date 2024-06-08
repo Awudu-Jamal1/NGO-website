@@ -20,8 +20,8 @@ export  const Approach = () => {
             </div>
           </div>
           <div className="grid  h-[35em] col-span-2  lg:grid-rows-3 grid-flow-col gap-4">
-              <div className="row-start-2 border row-span-2 img1 opacity-70 ..."></div>
-              <div className="row-end-3 border row-span-2 img2 opacity-70 ...."></div>
+              <div className="row-start-2 border row-span-2 img3 opacity-70 ..."></div>
+              <div className="row-end-3 border row-span-2 img4 opacity-70 ...."></div>
               {/* <div className="row-start-1 row-end-4 border ...">03</div> */}
             </div>
         </div>
