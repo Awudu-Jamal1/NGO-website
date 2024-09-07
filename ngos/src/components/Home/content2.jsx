@@ -24,7 +24,7 @@ function Content2() {
 
 </div> */}
 
- <div className="mx-auto max-w-4xl text-center py-4">
+ <div className="mx-auto max-w-6xl text-center pt-8">
 {/* <h1 className="text-2xl max-w- font-semibold leading-8 py-8 tracking-tight text-main3 sm:text-3xl">
      Our Team
   </h1> */}

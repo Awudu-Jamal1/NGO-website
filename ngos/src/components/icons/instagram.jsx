@@ -1,6 +1,6 @@
 export const Instagram=()=>{
     return(
-        <div className="bg-main3 pt-1 rounded-full h-[1.5em] w-[1.5em] flex justify-center ">
+        <div className="bg-green-400 pt-2 rounded-full h-[1.5em] w-[1.5em] flex justify-center ">
             <svg stroke="none"
             fill="#fff"
             strokeWidth=""  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15" height="15" viewBox="0 0 50 50">

@@ -1,6 +1,6 @@
 export const Facebook=()=>{
     return(
-        <div className="bg-main3 pt-1 rounded-full h-[1.5em] w-[1.5em] flex justify-center ">
+        <div className="bg-green-400 pt-2 rounded-full h-[1.5em] w-[1.5em] flex justify-center ">
             <svg 
             stroke="none"
             fill="#fff"

@@ -5,12 +5,11 @@ function Content() {
         <div className="mx-auto max-w-5xl  py-16 sm:py-20  lg:pt-20 lg:pb-64 ">
           <div className="w-full  lg:text-l  ">
             <h1 className=" font-bold  text-[#feeafa] lg:text-7xl text-4xl">
-              Globally Green
+              GLOBALLY GREEN
             </h1>
-            <p className="mt-6 w-full lg:w-[30em]  text-xl lg:text-1xl   text-[#feeafa]">
-              Inspiring millions of individuals around the globe to come up with
-              innovative ideas and sustainable solutions to protect our
-              environment and become part of the solution.
+            <p className="mt-6 w-full lg:w-[30em]  text-[20px] lg:text-[24px] font-bold   text-[#feeafa]">
+              <p><span className="text-[30pxs]" >.</span> Here For Our Planet</p>
+              <p>. Here to Nuture and Inspire The Next Generation To Climate Action </p>
             </p>
           </div>
           {/* <div className="mt-20 flex  items-center justify-center gap-x-6">

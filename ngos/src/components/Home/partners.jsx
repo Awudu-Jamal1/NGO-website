@@ -2,7 +2,7 @@ import dry from "../../assets/images/dried.png";
 
 export default function Partners() {
   return (
-    <div id="do" className="  w relative py-8 px-4 // border border-[#18206f] border-4 ">
+    <div id="do" className="  w relative py-8 px-4 border-main border">
       {/* <img className="w-full h-[25em] " src={dry} alt="" /> */}
 
       <div className="flex justify-center flex-col md:flex-row 
