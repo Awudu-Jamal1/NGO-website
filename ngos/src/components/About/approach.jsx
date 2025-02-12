@@ -1,7 +1,7 @@
 import img1 from "../../assets/images/activity.jpg"
 export  const Approach = () => {
   return (
-    <div className="  relative grid md:grid-cols-2 lg:grid-cols-2  text-white  bg-[#f7f7f7]  justify-center   gap-20  my-10">
+    <div className="  relative grid md:grid-cols-2 lg:grid-cols-2   bg-[#f7f7f7]  justify-center   gap-20  my-10">
       <div className="">
         <img
         className="h-full"

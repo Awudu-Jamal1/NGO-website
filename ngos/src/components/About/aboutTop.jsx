@@ -10,7 +10,7 @@ function AboutTop() {
             alt="nature image"
           />
           <div className="absolute inset-0 h-full w-full "></div>
-          <div className="absolute z-10 text-white top-20  w-2/4  left-[400px]">
+          <div className="absolute z-10 text-white top-20  lg:w-2/4  left-[400px]">
             <h1 className="text-6xl tracking-normal  text-white text-center py-5 font-bold leading-tight">
               ABOUT US
             </h1>
