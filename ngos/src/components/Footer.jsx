@@ -47,7 +47,7 @@ function Footer() {
             </p>
             <div className="py-3 text-white">
               <PhoneIcon className=" inline-block text-white text-sm h-5" />{" "}
-              <span className="text-white">0592400229 / 0551698607</span>
+              <span className="text-white"> 0592400229 / 0551698607</span>
             </div>
             <p className="py-0.5 max-w-xs leading-8 text-white">
             Hse No.30 Ritz Junction, Ashale Botwe Nmai Dzorn Road Madina, Accra, Ghana

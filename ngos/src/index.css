@@ -14,11 +14,11 @@
     margin: 0;
     font-family: "Fira Sans", sans-serif;
     /* font-family: "Roboto", serif; */
-    color: #294145;
+    /* color: #294145; */
   
 }
 body{
-  color: #0f1111;
+    color: #294145;
     background:#fff ;
 }
 .coreImg{
