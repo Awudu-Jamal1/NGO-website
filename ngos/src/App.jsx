@@ -9,6 +9,7 @@ import { Contact } from './components/Contact/Cmain';
 import { About } from './components/About/Abmain';
 import { WorkMain } from './components/Work/workMain';
 import OurTeam from './components/About/ourt';
+import DetailPage from './components/Popular/details';
 
 function App() {
   const router = createBrowserRouter([
@@ -26,6 +27,9 @@ function App() {
         element: <WorkMain /> },
         {path: "/our team",
         element: <OurTeam/> }
+        ,
+        {path:"/details/:title",
+        element: <DetailPage/> }
 
       ]
     },

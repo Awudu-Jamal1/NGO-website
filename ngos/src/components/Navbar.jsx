@@ -8,6 +8,7 @@ const navigation = [
   { name: "HOME", to: "/" },
   { name: "ABOUT US", to: "about" },
   { name: "OUR TEAM", to: "our team"},
+  { img: logo, to: "/"},
 
   { name: "OUR WORK", to: "our Work"},
   { name: "CONTACT US", to: "contact" },
@@ -19,13 +20,13 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex w-full lg:flex-col fex-row items-center shadow-lg justify-between p-2 lg:px-6 sm:py-2 bg-white" aria-label="Global">
-        <div className="flex lg:flex- ">
+      <nav className="flex w-full lg:flex-col fex-row items-center shadow-sm justify-between p-2 lg:px-6 sm:py-2 bg-gray-200" aria-label="Global">
+        {/* <div className="flex lg:flex- ">
           <Link to="/" className="-m-1.5 p-1.5  text-white">
             <span className="sr-only">Your Company</span>
             <img  className="h-[10em] w-[25em]" src={logo} alt="" />
           </Link>
-        </div>
+        </div> */}
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -36,15 +37,16 @@ function Navbar() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex  lg:gap-x-12 px-3">
           {navigation.map((item) => (
             <Link
               key={item.name}
               to={item.to}
              
-              className={`hover:underline text-[0.9rem] font-semibold text-main3 cursor-pointer`}
+              className={`hover:underline text-sm flex place-items-center  font-semibold capitalize tracking-wide  cursor-pointer`}
             >
               {item.name}
+              <img src={item.img}  className="h-16" alt="" />
             </Link>
           ))}
         </div>

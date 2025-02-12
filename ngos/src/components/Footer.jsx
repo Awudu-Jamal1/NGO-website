@@ -1,9 +1,15 @@
 import { useState } from "react";
 import logo from "../assets/images/glo 1.png";
-import { Facebook } from "./icons/facebook";
-import { Instagram } from "./icons/instagram";
-import { Twitter } from "./icons/twitter";
-import { Linked } from "./icons/linked";
+import footin from "../assets/images/footer2.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faFacebookF,
+  faLinkedin,
+  faLinkedinIn,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { PhoneIcon } from "@heroicons/react/24/outline";
 
 function Footer() {
   //  const [data, setData] = useState("");
@@ -22,95 +28,76 @@ function Footer() {
 
   return (
     <>
-      <footer id="" className="   px-2 py-2 text-main3">
-        <div className="grid    w-90   lg:grid-cols-2 sm:grid-cols-1 gap-1">
-          
-          <div className="  flex justify-center md:justify-center lg:justify-end  text-[em]">
-            <img className="h-[20em] w-[70em]" src={logo} alt="" />
-          </div>
-          <div className="col-span-1  max-w-md   grid pt-5 justify-items-center  grid-cols-2 ">
-            <div className="py-2 pt-5">
-              <div className="font-semibold text-[20px]  py-3">
-                SECTORS
-              </div>
-              <ul className="text-[18px] list-disc">
-                <li className="hover:underline pointer-cursor py-3">
-                  CLIMATE CHANGE
-                </li>
-                <li className="hover:underline py-3">CIRCULAR ECONOMY</li>
-                <li className="hover:underline py-3">CONSERVATION</li>
-              </ul>
+      <footer
+        style={{
+          backgroundImage: `url(${footin})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="py-24 bg-footer"
+      >
+        <div className="grid grid-cols-3 gap-10 max-w-6xl m-auto text-white">
+          <div>
+            <div>
+              <img src={logo} className="h-36" alt="" />
             </div>
-            {/* <div className="py-3">
-              <div className="font-bold text-[1.2em] text-center py-2">
-                Company
-              </div>
-              <ul className="text-[1em] ">
-                <li className="hover:underline">About Us</li>
-                <li className="hover:underline">Our Team</li>
-                <li className="hover:underline">Our Work</li>
-              </ul>
-            </div> */}
-            <div className="py-3  pt-5 lg:col-span-1 ">
-              <div className="font-semibold text-[20px] pttext-center py-2">
-                Socials
-              </div>
-              <ul className="text-[18px] lg:grid-cols-1  md:grid-cols-1 gap-8 lg:gap-1 ">
-                <li
-                  onClick={() => window.open(insta, "_blank")}
-                  className="flex py-2  cursor-pointer hover:underline"
-                >
-                  <span className="px-1">
-                    <Instagram />
-                  </span>{" "}
-                  <span className=" md:block lg:block">Instagram</span>{" "}
-                </li>
-
-                <li
-                  onClick={() => window.open(face, "_blank")}
-                  className="flex py-2  cursor-pointer hover:underline"
-                >
-                  <span className="px-1">
-                    <Facebook />
-                  </span>{" "}
-                  <span className="  md:block lg:block">Facebook</span>{" "}
-                </li>
-                <li
-                  onClick={() => window.open(xs, "_blank")}
-                  className="flex py-2  cursor-pointer hover:underline"
-                >
-                  <span className="px-1">
-                    <Twitter />
-                  </span>{" "}
-                  <span className="  md:block lg:block">X</span>{" "}
-                </li>
-
-                <li
-                  onClick={changeHandler("")}
-                  className="flex py-2  cursor-pointer hover:underline "
-                >
-                  <span className="px-1">
-                    <Linked />
-                  </span>{" "}
-                  <span className=" md:block  lg:block">Linkedin</span>{" "}
-                </li>
-              </ul>
+            <p className="py-3 text-white">
+              Inspiring millions of individuals around the globe to protect the environment.
+            </p>
+            <div className="py-3 text-white">
+              <PhoneIcon className=" inline-block text-white text-sm h-5" />{" "}
+              <span className="text-white">0592400229 / 0551698607</span>
             </div>
-
-            {/* <div className="py-3">
-              <div className="font-bold text-[1.2em] text-center py-2">
-                Make DONATION
+            <p className="py-0.5 max-w-xs leading-8 text-white">
+            Hse No.30 Ritz Junction, Ashale Botwe Nmai Dzorn Road Madina, Accra, Ghana
+            </p>
+            <div className="flex gap-10 py-5 text-main4">
+              <div className="bg-main4 h-8   w-8  place-content-center  text-center rounded-full">
+                <FontAwesomeIcon
+                  icon={faFacebookF}
+                  className="text-white text-sm"
+                />
               </div>
-              <ul className="text-[0.9em] ">
-                <li className="">About Us</li>
-                <li>Our Works</li>
-              </ul>
-            </div> */}
+              <div className="bg-main4 h-8   w-8  place-content-center  text-center rounded-full">
+                <FontAwesomeIcon
+                  icon={faLinkedinIn}
+                  className="text-white text-sm"
+                />
+              </div>
+              <div className="bg-main4 h-8 text-white   w-8 place-content-center  text-center rounded-full">
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="text-white text-sm"
+                />
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="py-2 mt-3 text-center  w-full text-[0.9em]">
-          {" "}
-          © Copyright 2024{" "}
+
+          <div className="col-span-2 text-white">
+            <div className="border-b border-b-main4 pb-24">
+              <p className="font-semibold text-2xl leading-relaxed capitalize py-8 text-white">
+                " Here for our Planet.
+                Here to inspire the next Generation to climate change. "
+              </p>
+
+              <div>
+                <button className="text-lg bg-main4 text-white py-3 px-8 rounded-full">
+                  Donate now
+                </button>
+              </div>
+            </div>
+            <div className="flex justify-between text-white py-10">
+              <div className="text-white">JawduTech © 2025 </div>
+              <div>
+                {" "}
+                <span className=" text-white border-r border-r-white  px-4">
+                  Privacy Policy
+                </span>
+                <span className="px-4 text-white">Terms & Conditions</span>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </>

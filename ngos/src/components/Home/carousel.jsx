@@ -1,64 +1,87 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Circle } from '@phosphor-icons/react'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import farm2 from "../../assets/images/farming2.png"
+import water from "../../assets/images/water.png"
+import forest from "../../assets/images/forest.png"
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import activity from "../../assets/images/activity.jpg"
-import activity2 from "../../assets/images/news2.jpg"
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
-const car =[{
-    id:1,
-    slide:'Slide 1',
-    img:activity
-},{
-    id:2,
-    slide:'Slide 2',
-    img:activity
-},{
-    id:3,
-    slide:'Slide 3',
-    img:activity2
-}
-// ,{
-//     id:4,
-//     slide:'Slide 4'
-// }
-,]
- function Carousel ()  {
+const items = [
+  {
+    title: 'Biodiversity Conservation and Ecosystem Restoration',
+    description: 'Símbolo italiano, a Ferrari mescla arte e velocidade com seu emblemático vermelho e "cavallino rampante".',
+    image:  farm2
+  },
+  {
+    title: 'Circular Economy and Waste Reduction',
+    description: 'Com design audacioso, a Lamborghini proporciona uma combinação inigualável de adrenalina e elegância.',
+    image: water
+  },
+  {
+    title: 'Reforestation and Afforestation',
+    description: 'Nascida da Fórmula 1, a McLaren é a quintessência da precisão britânica e inovação aerodinâmica.',
+    image: forest
+  }
+]
 
+function App() {
+  const [currentItem, setCurrentItem] = useState(0)
+
+  const snapRef = useRef(null)
+
+  const handleItemChange = useCallback(() => {
+    const sizeContainer = snapRef.current?.scrollWidth ?? 0
+    const sizeItem = sizeContainer / items.length
+
+    if (currentItem >= items.length - 1) {
+      snapRef.current?.scrollBy({ left: -sizeContainer, behavior: 'smooth' })
+      setCurrentItem(0)
+    } else {
+      snapRef.current?.scrollBy({ left: sizeItem, behavior: 'smooth' })
+      setCurrentItem((currentItem) => currentItem + 1)
+    }
+  }, [currentItem])
+
+  useEffect(() => {
+    const interval = setInterval(handleItemChange, 10000)
+
+    return () => {
+      clearInterval(interval)
+    }
+  }, [currentItem])
 
   return (
-    <div className='mx-auto max-w-7xl px-6 lg:px-8' >
-   <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-10 gap-y-16  border-gray-200   lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {car.map((post) => (
-            <article className='shadow-md transition ease-out delay-100 hover:shadow-xl' key={post.id}>
-              <div style={{
-                backgroundImage: `url(${post.img})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: " no-repeat",
+    <main className='  bg-gray-200'>
+      <div className='relative  w-full h-full drop-shadow-lg'>
+        <div className='absolute flex gap-2 backdrop-blur-sm bottom-10 z-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/30 p-2 rounded-full'>
+          {items.map((item) =>
+            currentItem === items.indexOf(item) ? (
+              <Circle key={item.title} size={10} color='#222222' weight='fill' />
+            ) : (
+              <Circle key={item.title} size={10} color='#222222' weight='regular' />
+            )
+          )}
+        </div>
+        <div ref={snapRef} className='snap-x snap-mandatory flex overflow-x-hidden relative rounded-2xl'>
+          {items.map((item) => (
+            <div
+              key={item.title}
+              className='imageSlizer snap-center flex justify-center min-w-full gap-2 bg-cover bg-center bg-no-repeat rounded-2xl p-3'
+              style={{
+                backgroundImage: `url(${item.image})`,
+                height: '500px',
+                aspectRatio: 'auto 1080 / 721'
               }}
-              key={post.id}
-              className="flex py-56 text-center bg-main relative  max-w-xl  opacity-90 
-                flex-col items-center justify-between"
             >
-              {/* <h1 className="text-2xl font-semibold text-main3">{post.slide}</h1> */}
-              {/* <div className="absolute style  border"><img style={{height:"15em",top:"1"}} src={post.image} alt="" /></div> */}
+              <div className='w-full absolute bottom-28  h-fit px-5 py-2 rounded-lg'>
+                <p className='text-gray-100 text-4xl leading-normal px-4 max-w-xl  font-bold'>{item.title}</p>
+                <p className='text-gray-900 text-sm px-4 py-3'><button className='rounded-full bg-white px-6 py-3'>View More </button></p>
+              </div>
             </div>
-            <div className='pt-3 py-28 px-4'>
-              <div className='text-main3 text-xl font-semibold tracking-wide'> This is The Topic</div>
-              <div className='text-[0.8em] py-2 text-text1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus obcaecati expedita, maiore</div>
-            </div>
-
-              </article>
           ))}
         </div>
-    </div>
-
-  );
+      </div>
+    </main>
+  )
 }
 
-export default Carousel  ;
+export default App

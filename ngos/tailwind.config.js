@@ -13,6 +13,8 @@ export default withMT({
       'ghover':'#004b23',
       'text1':'#b7b7a4',
       '2main':'#455d58',
+      "main4":'#86b85e',
+      "footer":"rgb(36, 35, 29)"
 
 
 

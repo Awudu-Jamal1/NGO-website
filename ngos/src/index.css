@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 *{
     padding: 0;
     box-sizing: border-box;
     margin: 0;
     font-family: "Fira Sans", sans-serif;
+    /* font-family: "Roboto", serif; */
+    color: #294145;
   
 }
 body{
@@ -14,7 +22,7 @@ body{
     background:#fff ;
 }
 .coreImg{
-    background-image: url('./assets/images/edfo.jpg');
+    background-image: url('./assets/images/planting2.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,3 +99,53 @@ body{
             background-position: center;
             background-repeat: no-repeat;
         }
+
+
+
+        .imageSlizer{
+            aspect-ratio: auto 1080 / 721;
+          border-bottom-color :rgb(23, 34, 77);
+          border-bottom-left-radius :5px;
+          border-bottom-right-radius: 5px;
+          border-bottom-style :none;
+          border-bottom-width :0px;
+          border-image-outset :0;
+          border-image-repeat :stretch;
+          border-image-slice :100%;
+          border-image-source :none;
+          border-image-width :1;
+          border-left-color :rgb(23, 34, 77);
+          border-left-style: none;
+          border-left-width :0px;
+          border-right-color :rgb(23, 34, 77);
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: rgb(23, 34, 77);
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          border-top-style :none;
+          border-top-width: 0px;
+          box-shadow: none;
+          box-sizing: border-box;
+          color :rgb(23, 34, 77);
+          display: inline-block;
+          font-family: Heebo, sans-serif;
+          font-size :15px;
+          font-weight: 400;
+          /* height: 375px; */
+          letter-spacing :normal;
+          line-height: 22.5px;
+          max-width: 100%;
+          object-fit: cover;
+          object-position: 50% 50%;
+          overflow-clip-margin: content-box;
+          overflow-x: clip;
+          overflow-y :clip;
+          text-align: center;
+          text-size-adjust: 100%;
+          vertical-align :middle;
+          /* width :377.8px; */
+          word-spacing: 0px;
+          -webkit-font-smoothing: antialiased;
+          }
+          

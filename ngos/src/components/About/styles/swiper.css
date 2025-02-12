@@ -1,0 +1,25 @@
+/* swiper.css */
+.swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .swiper-button-prev {
+    left: -40px;
+  }
+  
+  .swiper-button-next {
+    right: -40px;
+  }
+  
+  .swiper-button-prev svg, .swiper-button-next svg {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-button-prev:hover svg, .swiper-button-next:hover svg {
+    transform: scale(1.1);
+  }
+  

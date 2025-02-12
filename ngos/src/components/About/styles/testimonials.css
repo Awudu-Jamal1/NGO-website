@@ -1,0 +1,18 @@
+/* testimonials.css */
+.swiper-slide {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .swiper-slide:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .swiper-slide-active {
+    opacity: 1;
+  }
+  
+  .swiper-slide-next, .swiper-slide-prev {
+    opacity: 0.7;
+  }
+  

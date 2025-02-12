@@ -1,30 +1,30 @@
 import Content3 from "./content3";
 import Member from "./members";
+import EventArea from "./partners";
 import Vision from "./vision";
 
 function Content2() {
     return (  <>
-    {/* <div id="about" className="mx-auto max-w-4xl py-10 ">
+    
 
-<div className=" py-5">
-  <h1 className="text-4xl py-5 text-center font-semibold tracking-tight text-main3 sm:text-3xl">
-    About Us
-  </h1>
-  
-   <p className=" text-2xl lg:text-2xl py-2  leading-loose text-text1 px-5">
-            Globally Green is a Non Governmental Organisation whose mission is to inspire millions individuals
-            around the globe to come up with innovative ideas and solutions to protect our enivronment and be part of the solution.</p>
-            <p className="text-2xl lg:text-2xl py-2 leading-loose   text-text1 px-5 ">
-              Through cultural collaboration and education, we seek to create a world where nature would be conserved and our enivronment protected
-            </p>
+ 
 
+<div>
 
 </div>
+<div className="  py-10">
+    <Content3/>
+</div>
+<div style={{
+      backgroundImage: `url(https://wdtboomi.wpengine.com/wp-content/uploads/2022/12/Path-12687@2x.png)`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+    }}>
+      <div className="max-w-6xl m-auto py-20"><EventArea/></div>
+    </div>
 
-
-</div> */}
-
- <div className="mx-auto max-w-6xl text-center pt-8">
+<div className="max-w-7xl mx-auto text-center py-28">
 {/* <h1 className="text-2xl max-w- font-semibold leading-8 py-8 tracking-tight text-main3 sm:text-3xl">
      Our Team
   </h1> */}
@@ -37,13 +37,6 @@ function Content2() {
 
 </div> 
 
-
-<div>
-
-</div>
-<div className="  py-10">
-    <Content3/>
-</div>
     </>);
 }
 
