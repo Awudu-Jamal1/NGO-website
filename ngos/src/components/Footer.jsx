@@ -35,9 +35,9 @@ function Footer() {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
-        className="py-24 bg-footer"
+        className="py-24 bg-footer px-5"
       >
-        <div className="lg:grid grid-cols-3 gap-10 max-w-6xl m-auto text-white">
+        <div className="grid grid-cols-1 place-content-center place-items-center px-4 lg:grid-cols-3 gap-10 w-full lg:max-w-6xl m-auto text-white">
           <div>
             <div>
               <img src={logo} className="h-36" alt="" />
