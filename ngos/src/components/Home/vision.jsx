@@ -8,7 +8,7 @@ function Vision() {
   return (
     <>
       <section>
-       <div className="grid grid-cols-5">
+       <div className="lg:grid grid-cols-5">
         <div className=" col-span-2 ">
           <div><img src="https://wdtboomi.wpengine.com/wp-content/uploads/2023/01/Help-768x511.webp" className="h-[700px] w-[500px] imageSlizer" alt="" /></div>
           <div><img src="https://wdtboomi.wpengine.com/wp-content/uploads/2023/02/home-image-frame.webp" className="-mt-48 -ml-24" alt="" /></div>
