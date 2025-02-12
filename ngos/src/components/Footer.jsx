@@ -37,7 +37,7 @@ function Footer() {
         }}
         className="py-24 bg-footer"
       >
-        <div className="grid grid-cols-3 gap-10 max-w-6xl m-auto text-white">
+        <div className="lg:grid grid-cols-3 gap-10 max-w-6xl m-auto text-white">
           <div>
             <div>
               <img src={logo} className="h-36" alt="" />
