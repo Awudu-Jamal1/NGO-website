@@ -25,6 +25,9 @@ export const About = () => {
         <div className="relative">
           <Testimonials />
         </div>
+        <div>
+          <Founder/>
+        </div>
       </div>
     </div>
   );

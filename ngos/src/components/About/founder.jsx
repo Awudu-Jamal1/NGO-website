@@ -3,16 +3,18 @@ import lead from "../../assets/images/lead.jpg";
 export const Founder = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 pt-16 lg:grid-cols-2  gap-8 py-4 ">
-        <div className="border relative border-4">
-          <img src={lead} className="w-full h-full" alt="" />
+      <div className="grid grid-cols-1  lg:grid-cols-2   gap-4 max-w-7xl m-auto  ">
+        <div className=" relative place-items-center">
+          <img src={lead} className="w-3/4 h-3/4" alt="" />
         </div>
-        <div className="px-2 py-5">
-          <div>
-            <h1 className="text-5xl font-bold py-1 ">Founder’s Message</h1>
+        <div className="px-8 py-10 ">
+        <div className="   leading-relaxed">
+            <h1 className="text-4xl  font-bold leading-tight py-2" style={{  fontFamily: "Encode Sans Condensed, serif" }}>
+            Founder's Message
+            </h1>
           </div>
 
-          <p className="text-normal py-2 leading-8 tracking-wide text-[#000]">
+          <p className="text-base leading-loose tracking-wide text-[#555555] py-3">
             At Globally Green, we are a community of individuals who are
             committed to creating a positive change in our world starting from
             the grassroot level to the world. Since our founding in 2020, we've
@@ -26,7 +28,7 @@ export const Founder = () => {
           </p>
 
           <div>
-            <h2 className="text-2xl text-2main italics font-semi-bold p-2">
+            <h2 className="text-2xl text-main4 italics font-semi-bold p-2">
               Saudat Kamarre-Deen, Globally Green
             </h2>
           </div>
