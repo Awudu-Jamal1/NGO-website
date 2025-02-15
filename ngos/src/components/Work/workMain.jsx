@@ -6,7 +6,7 @@ export const WorkMain =()=>{
     return(
         <div className="mb-40">
             <div className="">
-            <div><WorkTop/></div>
+            <div className="hidden lg:block"><WorkTop/></div>
             <div>
 <VolunteerContent/>
             </div>

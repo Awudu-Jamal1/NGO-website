@@ -4,7 +4,7 @@ import imgz from "../../assets/images/abouttop.jpg";
 function OurTeam() {
   return (
     <div>
-      <div>
+      <div className="hidden lg:block">
         <div className="h-[400px]  lg:block md:block relative ">
           <img
             className="absolute h-full w-full object-cover object-center"

@@ -10,7 +10,7 @@ export const About = () => {
   return (
     <div>
       <div>
-        <div>
+        <div className="hidden lg:block">
           <AboutTop />
         </div>
         <div>

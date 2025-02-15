@@ -10,7 +10,7 @@ function ContactDetails() {
             <div className="">
                 <div>
               
-                <FontAwesomeIcon className="text-blue-700 text-6xl"  icon={faLocationDot} />
+                <FontAwesomeIcon className="text-main4 text-6xl"  icon={faLocationDot} />
            
                 </div >
                 <div className="py-5  ">
@@ -22,7 +22,7 @@ function ContactDetails() {
 
             <div>
                 <div>
-                <FontAwesomeIcon className="text-blue-700 text-6xl " icon={faMobileScreen} />
+                <FontAwesomeIcon className="text-main4 text-6xl " icon={faMobileScreen} />
                 
                 </div>
                 <div className="py-5">
@@ -35,7 +35,7 @@ function ContactDetails() {
             <div>
                 <div>
                 
-                <FontAwesomeIcon className="text-blue-700 text-6xl" icon={faEnvelope} />
+                <FontAwesomeIcon className="text-main4 text-6xl" icon={faEnvelope} />
                 </div>
                 <div className="py-5">
                     <h6 className="text-lg font-medium">Email</h6>
